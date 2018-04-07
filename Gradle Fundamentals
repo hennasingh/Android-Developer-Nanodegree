@@ -1,0 +1,12 @@
+When we have not installed Gradle on machine, we executes Tasks using Gradle wrapper. The wrapper is a script that will download and install a
+specified version of Gradle.
+
+Steps to execute Task (windows machine)
+1. The important gradle files are- 
+..*gradle - jar file
+..*gradlew - gradle wrapper for mac/linux
+..*gradlew.bat - gradle wrapper for windows
+..*build.gradle - contain the tasks to perform
+2. Using command prompt go to the directory containing gradle wrapper
+3. Run the bat file on the prompt, if gradle is not installed, wrapper will install it
+4. It will show a list of commands to run to see tasks, particular task and on.
